@@ -1,7 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
-import "./ProductListing.css";
+import "../css/ProductListing.css";
+
 
 const products = [
   { id: 1, name: "Fern", price: 15, category: "Low Light" },

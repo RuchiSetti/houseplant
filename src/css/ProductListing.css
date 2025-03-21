@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product button {
+    background-color: #008CBA;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
