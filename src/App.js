@@ -5,7 +5,7 @@ import ProductListing from "./components/ProductListing";
 import CartPage from "./components/CartPage";
 import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Header />
@@ -16,6 +16,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
